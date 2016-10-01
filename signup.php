@@ -364,7 +364,7 @@ Animation Keyframes
 
 <section class="tech-login">
    <div id="fade-box">
- 
+  <form action="#" method="POST" class='form'>	
 		    <input type="number" id="userid" name="userid" placeholder="Uid">
 			<input type="text" id="user" name="user" placeholder="Username">
 			<input type="password" id="pass" name="pass" placeholder="Password">
@@ -372,7 +372,7 @@ Animation Keyframes
 			<button type="submit" name="submit" id="signup-button">Sign-Up</button><br><span id="uname"></span><br>
 		
 		
-		
+	   </form>
 		
         <button type="submit" id="login">Login here</button>
         </div>
