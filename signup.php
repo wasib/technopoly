@@ -359,7 +359,7 @@ Animation Keyframes
 }
 </style>
 <div id="logo"> 
-  <h1><i> TECHNOPOLY SIGN-UP</i></h1>
+  <h1><i>SIGN-UP</i></h1>
 </div> 
 
 <section class="tech-login">
@@ -369,7 +369,7 @@ Animation Keyframes
 			<input type="text" id="user" name="user" placeholder="Username">
 			<input type="password" id="pass" name="pass" placeholder="Password">
 			<input type="password" id="pass1" name="pass1" placeholder="Confirm Password">
-			<button type="submit" name="submit" id="signup-button">Sign-Up</button><br><span id="uname"></span>
+			<button type="submit" name="submit" id="signup-button">Sign-Up</button><br><span id="uname"></span><br>
 		</form>
 		
 		
