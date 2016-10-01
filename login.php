@@ -25,6 +25,8 @@ html {
 #uname{
 	font-size:20px;
 	color:red;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
 	
 	}
 /* =========================================
