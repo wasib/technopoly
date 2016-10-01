@@ -22,6 +22,11 @@ html {
   width: 100%;
 }
 
+#error{
+	font-size:20px;
+	color:red;
+	
+	}
 /* =========================================
 `
 ========================================= */
@@ -372,7 +377,7 @@ Animation Keyframes
         <input type="password" name="password" id="pass" placeholder="Password" required>
           
          <button type="submit" name="submit" id="login-button">Login</button>
-	    <br><span id="uname"></span>
+	    <br><span id="error"></span>
 	
       </form>
 	  	  <button type="submit" id="register" >Register</button>
