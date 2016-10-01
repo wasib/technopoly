@@ -83,7 +83,7 @@ Log in form
   z-index: 4;
 }
 
-.tech-login form {
+.tech-login #fade-box form {
   animation: form-entry 3s ease-in-out;
   background: black;
   background: linear-gradient(#3399FF, #111111);
