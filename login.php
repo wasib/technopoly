@@ -365,17 +365,18 @@ Animation Keyframes
 </div> 
 
 <section class="tech-login">
-  
+   <div id="fade-box">
   <form action="#" method="POST" class='form'>	
-    <div id="fade-box">
+   
       <input type="text" name="username" id="user" placeholder="Username" required>
         <input type="password" name="password" id="pass" placeholder="Password" required>
           
          <button type="submit" name="submit" id="login-button">Login</button>
 	    <br><span id="uname"></span>
-		  <button type="submit" id="register" >Register</button>
-        </div>
+	
       </form>
+	  	  <button type="submit" id="register" >Register</button>
+        </div>
       <div class="hexagons">
         <span>&#x2B22;</span>
         <span>&#x2B22;</span>
