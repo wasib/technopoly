@@ -24,7 +24,6 @@ else {
 $("#uname").css('display', 'inline', 'important');
 $("input").css({'border': '1px solid rgba(255,0,0,0.4)','background-color': 'rgba(255,0, 0, 0.2)'});
 $("#uname").html("Please fill all the fields");
-alert(html);
 }
    },
    beforeSend:function()
