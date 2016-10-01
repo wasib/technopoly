@@ -42,7 +42,7 @@ else{
 	//echo "please fill all the fields";
 	//echo '<script type="text/javascript">location.href = "signup.php";alert("please fill all the fields");</script>';
 	//echo   '<script language="javascript">alert("fill all fields")</script>';
-	echo 4;
+	
 	}
 //}
 // if(isset($_POST['submit'])) 
