@@ -86,7 +86,7 @@ Log in form
   box-shadow: 0 0 15px #00fffd;
   border-radius: 5px;
   display: inline-block;
-  height: 350px;
+  height: 360px;
   margin: 200px auto 0;
   position: relative;
   z-index: 4;
@@ -369,11 +369,11 @@ Animation Keyframes
 			<input type="text" id="user" name="user" placeholder="Username">
 			<input type="password" id="pass" name="pass" placeholder="Password">
 			<input type="password" id="pass1" name="pass1" placeholder="Confirm Password">
-			<button type="submit" name="submit" id="signup-button">Sign-Up</button><br>
+			<button type="submit" name="submit" id="signup-button">Sign-Up</button>
 	                <span id="uname"></span>
 
 	   </form>
-		<br><br>
+		<br>
         <button type="submit" id="login">Login here</button>
         </div>
       <div class="hexagons">
