@@ -371,8 +371,9 @@ Animation Keyframes
       <input type="text" name="username" id="user" placeholder="Username" required>
         <input type="password" name="password" id="pass" placeholder="Password" required>
           
-          <input type="submit" value="Login" id="login-button">
-		  <input  value="Register" type="button" onClick="location.href='signup.php'" id="register">
+         <button type="submit" name="submit" id="login-button">Login</button>
+	    <br><span id="uname"></span>
+		  <button type="submit" id="register" >Register</button>
         </div>
       </form>
       <div class="hexagons">
