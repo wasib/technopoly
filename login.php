@@ -21,7 +21,7 @@
 
 
 	  
-		<h1>Login6</h1>
+		<h1>Login</h1>
 		
 		<form method="POST" class="form"  action="#">
 			<input type="text" name="user" id="user" placeholder="Username">
