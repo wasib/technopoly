@@ -1,7 +1,7 @@
 <html>
 <head>
  <script  src="js/jquery.js"></script>
-       <script  src="js/login.js"></script>
+       <script  src="js/signup.js"></script>
 	   </head>
 <body>
 <style>
