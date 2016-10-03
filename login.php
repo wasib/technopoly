@@ -1,3 +1,4 @@
+
 <html>
 <head>
  <script  src="js/jquery.js"></script>
@@ -22,13 +23,6 @@ html {
   width: 100%;
 }
 
-#uname{
-	font-size:20px;
-	color:red;
-	font-weight: bold;
-	font-family: 'Ubuntu', sans-serif;
-	
-	}
 /* =========================================
 `
 ========================================= */
@@ -86,7 +80,7 @@ Log in form
 .tech-login form {
   animation: form-entry 3s ease-in-out;
   background: black;
-  background: linear-gradient(#3399FF, #111111);
+  background: linear-gradient(#333399, #111111);
   border: 6px solid #0000ff;
   box-shadow: 0 0 15px #00fffd;
   border-radius: 5px;
@@ -372,18 +366,16 @@ Animation Keyframes
 </div> 
 
 <section class="tech-login">
-   <div id="fade-box">
+  
   <form action="#" method="POST" class='form'>	
-   
+    <div id="fade-box">
       <input type="text" name="username" id="user" placeholder="Username" required>
         <input type="password" name="password" id="pass" placeholder="Password" required>
           
-         <button type="submit" name="submit" id="login-button">Login</button>
-	    <br><span id="uname"></span>
-	
-      </form>
-	  	  <button type="submit" id="register" >Register</button>
+          <button type="submit" name="submit" id="login-button">Login</button>
+		  <input  value="Register" type="button" onClick="location.href='signup.php'" id="register">
         </div>
+      </form>
       <div class="hexagons">
         <span>&#x2B22;</span>
         <span>&#x2B22;</span>
