@@ -46,7 +46,16 @@
  ?>
  </select>
  <button id="buy" type="submit" value="buy">buy</button><br>
- 
+ <?php
+    $q="select * from value where level=".$lev;
+	$r=mysqli_query($conn,$q);
+	 if (mysqli_num_rows($r) > 0) {
+    // output data of each row
+    while($row = mysqli_fetch_assoc($r)) {
+        echo "Cost Price=".$row["costprice"] ;
+    }
+ }
+ ?>
  
  </body>
  </html>
