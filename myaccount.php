@@ -28,6 +28,8 @@
 		<?php
     }
  }
+ else
+	 echo "Nothing here. Please purchase some questions";
  ?>
 
 
