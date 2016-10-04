@@ -47,7 +47,7 @@
     }
  }
  
-mysqli_close($conn);
+//mysqli_close($conn);
  }
 else
 	 header("Location: home.php");
@@ -62,6 +62,15 @@ else
 <button id="sellf" type="submit" value="sell">sell</button><br>
 
 </div>
-
+ <?php
+    $q="select * from value where level=".$level;
+	$r=mysqli_query($conn,$q);
+	 if (mysqli_num_rows($r) > 0) {
+    // output data of each row
+    while($row = mysqli_fetch_assoc($r)) {
+        echo "On Solving Correctly You Get=".$row["prize"] ;
+    }
+ }
+ ?>
  </body>
  </html>
