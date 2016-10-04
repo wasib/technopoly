@@ -1,4 +1,3 @@
-
 <html>
 <head>
  <script  src="js/jquery.js"></script>
@@ -11,7 +10,6 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   background: #000;
   background-size: cover;
@@ -22,7 +20,13 @@ html {
   text-align: center;
   width: 100%;
 }
-
+#uname{
+	font-size:20px;
+	color:red;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	
+	}
 /* =========================================
 `
 ========================================= */
@@ -33,7 +37,6 @@ html {
   position: relative;
   z-index: 40;
 }
-
 h1 {
   
   font-family: 'Ubuntu', sans-serif;
@@ -68,7 +71,6 @@ h1:after {
   transform: rotate(-47deg);
   width: 0;
 }
-
 /* =========================================
 Log in form
 ========================================= */
@@ -76,11 +78,10 @@ Log in form
   animation: input-entry 3s ease-in;
   z-index: 4;
 }
-
 .tech-login form {
   animation: form-entry 3s ease-in-out;
   background: black;
-  background: linear-gradient(#333399, #111111);
+  background: linear-gradient(#3399FF, #111111);
   border: 6px solid #0000ff;
   box-shadow: 0 0 15px #00fffd;
   border-radius: 5px;
@@ -201,7 +202,6 @@ Spinner
   opacity: 0.4;
   z-index: -3;
 }
-
 #inner-cirlce1 {
   background: #000;
   border-radius: 50%;
@@ -228,7 +228,6 @@ Spinner
   top: 0;
   left: 0;
 }
-
 /* =========================================
 Hexagon Mesh
 ========================================= */
@@ -246,7 +245,6 @@ Hexagon Mesh
   transform: perspective(600px) rotateX(60deg) scale(1.4);
   z-index: -3;
 }
-
 /* =========================================
 Animation Keyframes
 ========================================= */
@@ -359,23 +357,24 @@ Animation Keyframes
     transform: rotate(360deg);
   }
 }
-
 </style>
 <div id="logo"> 
   <h1><i> TECHNOPOLY</i></h1>
 </div> 
 
 <section class="tech-login">
-  
+   <div id="fade-box">
   <form action="#" method="POST" class='form'>	
-    <div id="fade-box">
+   
       <input type="text" name="username" id="user" placeholder="Username" required>
         <input type="password" name="password" id="pass" placeholder="Password" required>
           
-          <button type="submit" name="submit" id="login-button">Login</button>
-		  <input  value="Register" type="button" onClick="location.href='signup.php'" id="register">
-        </div>
+         <button type="submit" name="submit" id="login-button">Login</button>
+	    <br><span id="uname"></span>
+	
       </form>
+	  	  <button type="submit" id="register" >Register</button>
+        </div>
       <div class="hexagons">
         <span>&#x2B22;</span>
         <span>&#x2B22;</span>
